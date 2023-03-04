@@ -1,0 +1,90 @@
+ #flag-button {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .dropdown-item {
+     align-content: center;
+     padding: 1.5% 2%;
+ }
+
+ .dropdown-item:hover {
+     background-color: #dfdfdf;
+     cursor: pointer;
+ }
+
+ .country-name {
+     margin-left: 5px;
+     font-size: inherit;
+ }
+
+ .country-code {
+     color: gray;
+     font-size: inherit;
+ }
+
+ #wrapper {
+     position: relative;
+     width: 43%;
+ }
+
+ #tabulka {
+     display: flex;
+     flex-direction: column;
+     background-color: #f0f0f0;
+     margin-top: 2%;
+     font-family: 'Poppins', sans-serif;
+     height: 233px;
+     overflow: scroll;
+     position: absolute;
+     border-radius: 3px;
+     width: 100%;
+     display: none;
+     font-size: 16px;
+     z-index: 9;
+     font-weight: 500 !important;
+     overflow-x: hidden;
+ }
+
+ #tabulka.open {
+     display: flex;
+ }
+
+ #tabulka.fi {
+     width: 7px;
+ }
+
+ .wrapperPhone {
+     font-family: 'Poppins', sans-serif;
+     font-size: 16px;
+     width: max-content;
+ }
+
+ #phoneInputWrapper {
+     display: flex;
+     background-color: #f0f0f0;
+     padding: 7px;
+     border-radius: 3px;
+ }
+
+ .phoneNumber {
+     background-color: transparent;
+     border: none;
+     flex-grow: 1;
+     font-family: 'Poppins', sans-serif;
+     font-size: 16px;
+ }
+
+ #flagiska {
+     width: 20px;
+ }
+
+ @media only screen and (max-width: 768px) {
+
+     /* For mobile phones: */
+
+     #wrapper {
+         width: 100%;
+     }
+
+ }
